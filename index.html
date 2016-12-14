@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fidonachchi</title>
+    <script src="index.js"></script>
+    
+    <style type="text/css">
+    .container {
+        width: 500px;
+        clear: both;
+    }
+    .container input {
+        width: 100%;
+        clear: both;
+    }
+
+    </style>
+</head>
+
+<body>
+    <h1>Фібоначчі</h1>
+    <div class="container">
+    <form name="fibonacci">
+        <label>Дані</label>
+        <input name="data" type="text"><br>
+        <label>Результат</label>
+        <input name="result" type="text" disabled><br>
+        <input type="button" onclick="get_n();" value="Click Me">
+    </form>
+    </div>
+</body>
+</html>
